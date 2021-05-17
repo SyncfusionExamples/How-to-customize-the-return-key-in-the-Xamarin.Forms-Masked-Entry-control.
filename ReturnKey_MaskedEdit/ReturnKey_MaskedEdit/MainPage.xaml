@@ -5,9 +5,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:syncfusion="clr-namespace:Syncfusion.XForms.MaskedEdit;assembly=Syncfusion.SfMaskedEdit.XForms"
+             xmlns:local="clr-namespace:ReturnKey_MaskedEdit"
 
              x:Class="ReturnKey_MaskedEdit.MainPage">
-
-    <syncfusion:SfMaskedEdit x:Name="maskedEdit"  Mask="\w+@\w+\.\w+" MaskType="RegEx"  ReturnType="Search" ReturnCommand="{Binding UpdateCommand}" ReturnCommandParameter="Parameter"/>
+    <ContentPage.BindingContext>
+        <local:ViewModel/>
+    </ContentPage.BindingContext>
+    <StackLayout x:Name="stackLayout" Margin="40">
+            <syncfusion:SfMaskedEdit x:Name="maskedEdit"  Mask="\w+@\w+\.\w+" MaskType="RegEx"  ReturnType="Search" ReturnCommand="{Binding UpdateCommand}" ReturnCommandParameter="{x:Reference stackLayout}"/>
+<Entry Text="This is entry"/>
+    </StackLayout>
 
 </ContentPage>

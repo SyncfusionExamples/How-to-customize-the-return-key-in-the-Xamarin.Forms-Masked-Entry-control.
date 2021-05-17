@@ -15,7 +15,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -92,7 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ReturnKey_MaskedEdit\ReturnKey_MaskedEdit.csproj">
-      <Project>{C81EE20B-88C5-453A-B95B-988DB6379EF6}</Project>
+      <Project>{FF4B91B4-E00F-43BB-A9BA-567D2969384F}</Project>
       <Name>ReturnKey_MaskedEdit</Name>
     </ProjectReference>
   </ItemGroup>
