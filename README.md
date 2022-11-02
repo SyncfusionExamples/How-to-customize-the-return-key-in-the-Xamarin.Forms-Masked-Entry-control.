@@ -1,6 +1,6 @@
 # How to customize the return key in the Xamarin.Forms Masked Entry control
 
-This repository contains sample for how to customize the return key in the [Syncfusion Xamarin.Forms Masked Entry](https://help.syncfusion.com/xamarin/masked-entry/getting-started) control.
+This repository contains sample to customize the return key in the [Syncfusion Xamarin.Forms Masked Entry](https://help.syncfusion.com/xamarin/masked-entry/getting-started) control.
 
 Please refer the KB through this [link](https://www.syncfusion.com/kb/12611/how-to-customize-the-return-key-in-the-xamarin-forms-masked-entry-control).
 
